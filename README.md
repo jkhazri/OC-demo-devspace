@@ -8,8 +8,9 @@ curl -L -o devspace "https://github.com/loft-sh/devspace/releases/latest/downloa
 # ARM64
 curl -L -o devspace "https://github.com/loft-sh/devspace/releases/latest/download/devspace-linux-arm64" && sudo install -c -m 0755 devspace /usr/local/bin
 ```
-2.    sfdghfghsdfrgh
-
+2.    Initialize Your Project , Run this command in your project directory to create a devspace.yaml config file for your project:
+```
 git clone https://github.com/jkhazri/OC-demo-devspace.git
 cd OC-demo-devspace
 devspace init
+```
