@@ -23,6 +23,7 @@ devspace init
 - New file devspace.yaml (tells DevSpace how this project should be build, deployed, and developed)
 - New file devspace_start.sh (is used to show information to the user when the terminal for the dev container opens)
 - Added .devspace/ folder (the .devspace/ folder is used by DevSpace to store some information locally when you are working with this project)
+  
 ![Alt Text](https://github.com/jkhazri/OC-demo-devspace/blob/main/images/tree.png)
 
 5. now you are redy to deploy the application using devspace file :
