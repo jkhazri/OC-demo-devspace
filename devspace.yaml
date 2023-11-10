@@ -1,0 +1,16 @@
+# devspace.yaml
+
+# Configuration for DevSpace
+
+# Kubernetes configuration
+kubeContext: docs-vcluster2  # Change this to your Kubernetes context
+
+# List of components (resources) to deploy
+deployments:
+- name: php-app-deployment
+  kubectl:
+    manifests:
+    - deployment-PHP-demo.yaml
+    - service-PHP-demo.yaml
+    - PHP-ingress-file.yaml
+
