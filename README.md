@@ -61,4 +61,7 @@ Run `devspace -h` or `devspace [command] -h` to see a list of available commands
 oc@oc-Vostro-3888:~/OC-demo-devspace$ 
 ```
 4. You have succesfully initialized your first DevSpace project.
- After running devspace init, you will see 3 changes in your project :
+   After running devspace init, you will see 3 changes in your project :
+- New file devspace.yaml (tells DevSpace how this project should be build, deployed, and developed)
+- New file devspace_start.sh (is used to show information to the user when the terminal for the dev container opens)
+- Added .devspace/ folder (the .devspace/ folder is used by DevSpace to store some information locally when you are working with this project)
